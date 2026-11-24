@@ -1,0 +1,337 @@
+{
+  "slug": "fisioclinica-san-miguel",
+  "negocio": {
+    "nome": "Fisioclínica San Miguel",
+    "logo": "brand/logo.png",
+    "whatsapp": "5543999978125",
+    "telefone": "(43) 3357-2131",
+    "funcionamento": {
+      "seg": "07:30-20:00",
+      "ter": "07:30-20:00",
+      "qua": "07:30-20:00",
+      "qui": "07:30-20:00",
+      "sex": "07:30-20:00",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Jardim São Paulo · Zona Norte de Londrina",
+        "endereco": "Rua Archangelo Massaro, 477 – Jardim São Paulo, Londrina – PR, 86083-330",
+        "telefone": "(43) 99997-8125",
+        "horario": "Segunda a sexta, das 7h30 às 20h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#14267A",
+    "brand2": "#0B1650",
+    "ink": "#0E1433",
+    "bg": "#F6F7FB",
+    "pulse": "#FFD500",
+    "radius": "12px",
+    "registro": "clinico",
+    "fontDisplay": "Outfit",
+    "fontBody": "DM Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Plano de sessões",
+            "href": "#plano-de-sessoes"
+          },
+          {
+            "texto": "Equipe",
+            "href": "#equipe"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Fisioterapia · Jardim São Paulo, Londrina",
+        "h1": "Do pós-operatório de volta à rotina, sessão por sessão",
+        "lead": "Reabilitação depois de cirurgia, fisioterapia ortopédica, osteopatia e palmilhas feitas na própria clínica, na Rua Archangelo Massaro. Atendimento particular e pelo plano Hospitalar.",
+        "cta": "Marcar avaliação pelo WhatsApp",
+        "ctaSecundario": "Ver o plano de sessões",
+        "ctaSecundarioHref": "#plano-de-sessoes",
+        "imagem": "midia/fachada.jpg",
+        "imagemAlt": "Fachada da Fisioclínica San Miguel, com a marquise azul e o nome dos fisioterapeutas na parede",
+        "tarja": [
+          "4,9 no Google, 140 avaliações",
+          "Credenciada ao plano Hospitalar",
+          "Palmilhas feitas na clínica",
+          "Segunda a sexta, das 7h30 às 20h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Pós-operatório",
+          "Fisioterapia ortopédica",
+          "Osteopatia",
+          "Palmilhas sob medida",
+          "Tendão, joelho, quadril e coluna"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "data": {
+        "eyebrow": "Quem cuida",
+        "citacao": "Ninguém precisa atravessar a recuperação sozinho.",
+        "autor": "Fisioclínica San Miguel",
+        "texto": [
+          "Quem chega aqui costuma chegar com medo: acabou de operar o tendão, mal apoia o pé, não sabe se volta a andar como antes. A primeira conversa é para explicar o processo inteiro, do primeiro exercício à alta.",
+          "O fisioterapeuta que avalia segue com você até o fim. Muitas famílias do bairro tratam com a mesma pessoa há anos, e a recepção conhece cada paciente pelo nome."
+        ],
+        "imagem": "midia/sala.jpg",
+        "imagemAlt": "Sala de atendimento com maca, bola suíça e espelho"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que tratamos",
+        "lead": "Cada tratamento começa com uma avaliação e vira um plano com número de sessões e frequência definidos.",
+        "itens": [
+          {
+            "nome": "Reabilitação pós-cirúrgica",
+            "descricao": "Tendão de Aquiles, quadril, joelho, ombro. A fisioterapia começa quando o cirurgião libera e vai até você voltar à rotina sem muleta.",
+            "icone": "osso",
+            "imagem": "midia/espaldar.jpg"
+          },
+          {
+            "nome": "Fisioterapia ortopédica",
+            "descricao": "Dor na coluna, no joelho, no ombro, lesão de esporte ou de trabalho. Exercício orientado, liberação e fortalecimento.",
+            "icone": "coluna",
+            "imagem": "midia/equipamentos.jpg"
+          },
+          {
+            "nome": "Osteopatia",
+            "descricao": "Técnicas manuais para dor que volta sempre no mesmo lugar, tratando a origem do problema e não só onde dói.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Palmilhas sob medida",
+            "descricao": "Avaliação da pisada e palmilha moldada e recortada aqui, ajustada ao longo do tratamento.",
+            "icone": "pe"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/plano-sessoes.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "A San Miguel em números",
+        "itens": [
+          {
+            "valor": "4,9",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "140",
+            "rotulo": "avaliações de pacientes",
+            "contar": 140
+          },
+          {
+            "valor": "12h30",
+            "rotulo": "de atendimento por dia, das 7h30 às 20h"
+          },
+          {
+            "valor": "50",
+            "rotulo": "sessões num pós-operatório de quadril, do apoio na muleta à alta",
+            "contar": 50
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/palmilhas.html"
+    },
+    {
+      "id": "conversa",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Operou e recebeu o pedido de fisioterapia? Comece por aqui",
+        "lead": "Mande uma mensagem com o pedido médico. A recepção confere o plano e já sugere os horários da primeira semana.",
+        "cta": "Chamar a recepção",
+        "contato": "Fisioclínica San Miguel",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Operei o joelho há 40 dias e o médico liberou a fisio. Vocês atendem pelo Hospitalar?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Atendemos sim. Me manda uma foto do pedido médico e da carteirinha, por favor?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Mandei. Só consigo de manhã cedo, antes do trabalho."
+          },
+          {
+            "de": "clinica",
+            "texto": "Abrimos às 7h30. Consigo sua avaliação amanhã às 7h30 com o Felipe, pode ser?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Perfeito, obrigada!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Do pedido médico à alta, você sabe sempre em que ponto está.",
+        "itens": [
+          {
+            "titulo": "Mensagem com o pedido",
+            "texto": "Pelo WhatsApp, com o pedido médico e a carteirinha do plano, se tiver.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação",
+            "texto": "O fisioterapeuta examina, explica o processo e define o plano de sessões.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "Sessões na semana",
+            "texto": "Horários fixos combinados com a recepção, das 7h30 às 20h.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Reavaliação e alta",
+            "texto": "A evolução é medida no caminho. A alta vem quando o movimento volta.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "corpo-clinico",
+      "variant": "monograma",
+      "data": {
+        "titulo": "Os fisioterapeutas da casa",
+        "itens": [
+          {
+            "nome": "Felipe Casagrande",
+            "registro": "CREFITO 100934",
+            "especialidade": "Fisioterapeuta · reabilitação ortopédica e pós-operatória"
+          },
+          {
+            "nome": "Marcos Antonio Gomes",
+            "registro": "CREFITO 99715",
+            "especialidade": "Fisioterapeuta · avaliação e acompanhamento"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem passou por aqui",
+        "itens": [
+          {
+            "texto": "Precisei fazer 50 sessões depois da cirurgia no quadril. Cheguei mal conseguindo andar com a muleta e terminei o tratamento sem elas, com os movimentos recuperados.",
+            "autor": "Jhenifer F.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Fui recebido com muita atenção, me explicaram todo o processo. O tratamento não deixa de ser doloroso, mas cada etapa tem sido superada com tranquilidade.",
+            "autor": "Ailton M.",
+            "contexto": "Pós-operatório do tendão de Aquiles"
+          },
+          {
+            "texto": "Estou há mais de um ano em tratamento e vejo uma grande evolução. Todos que trabalham lá são atenciosos.",
+            "autor": "Adaísa B.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "Vocês atendem por plano de saúde?",
+            "r": "Sim, a clínica é credenciada ao plano Hospitalar. Também atendemos particular. Na dúvida sobre outro plano, pergunte pelo WhatsApp."
+          },
+          {
+            "p": "Preciso de pedido médico?",
+            "r": "Para usar o plano, sim. Mande a foto do pedido junto com a carteirinha que a recepção confere antes da primeira sessão."
+          },
+          {
+            "p": "Quantas sessões vou precisar?",
+            "r": "Depende do caso. Na avaliação o fisioterapeuta define o plano: uma dor lombar pode resolver em poucas semanas, um pós-operatório de quadril pode passar de 50 sessões."
+          },
+          {
+            "p": "E se eu precisar faltar?",
+            "r": "Avise a recepção pelo WhatsApp e a sessão é remarcada na mesma semana sempre que houver horário. Pular sessões é o que mais atrasa a recuperação."
+          },
+          {
+            "p": "Tem acessibilidade?",
+            "r": "Sim: entrada, banheiro e estacionamento acessíveis para cadeira de rodas."
+          },
+          {
+            "p": "Qual o horário?",
+            "r": "Segunda a sexta, das 7h30 às 20h. Dá para encaixar a sessão antes ou depois do trabalho."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/fachada-larga.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Recebeu o pedido de fisioterapia?",
+        "lead": "Mande uma foto dele pelo WhatsApp e já saia com a avaliação marcada.",
+        "cta": "Marcar avaliação"
+      }
+    },
+    {
+      "id": "footer"
+    }
+  ],
+  "wow": {
+    "assinatura": "gradient-mesh"
+  }
+}

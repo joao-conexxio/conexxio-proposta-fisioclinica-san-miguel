@@ -1,0 +1,46 @@
+<section class="blk-ps" id="plano-de-sessoes">
+  <div class="wrap">
+    <div class="blk-ps__cab" data-reveal>
+      <p class="blk-ps__eyebrow">O plano de sessões</p>
+      <h2 class="blk-ps__titulo">A recuperação acontece na sessão 12, na 30, na 50</h2>
+      <p class="blk-ps__lead" data-acende>Um pós-operatório de quadril pode pedir 50 sessões. Quem chega de muleta e sai andando passou por todas elas. Aqui, cada paciente sai da avaliação sabendo quantas sessões tem pela frente, em que dias e o que muda em cada fase.</p>
+    </div>
+    <div class="blk-ps__grade" data-reveal aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <ol class="blk-ps__fases">
+      <li data-reveal style="--d:0ms"><span class="blk-ps__n">1–10</span><h3>Dor sob controle</h3><p>Liberação, analgesia e os primeiros movimentos sem forçar o que foi operado.</p></li>
+      <li data-reveal style="--d:100ms"><span class="blk-ps__n">11–30</span><h3>Força e amplitude</h3><p>Exercício com carga crescente no espaldar e nos aparelhos. É a fase em que mais gente desanima.</p></li>
+      <li data-reveal style="--d:200ms"><span class="blk-ps__n">31–50</span><h3>Rotina de volta</h3><p>Marcha, escada, trabalho e esporte. A alta vem quando o movimento volta inteiro.</p></li>
+    </ol>
+  </div>
+</section>
+<style>
+.blk-ps{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 6%,var(--bg))}
+.blk-ps__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);font-weight:600}
+.blk-ps__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-ps__lead{margin:var(--sp-3) 0 0;max-width:46rem;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-ps__grade{margin:var(--sp-5) 0 0;display:grid;grid-template-columns:repeat(10,1fr);gap:6px;max-width:40rem}
+.blk-ps__grade span{aspect-ratio:1;border-radius:50%;background:color-mix(in srgb,var(--brand) 14%,transparent);transition:background .35s ease,transform .35s ease}
+.blk-ps__grade.is-in span{background:var(--brand)}
+.blk-ps__grade.is-in span:nth-child(n+11){background:color-mix(in srgb,var(--brand) 45%,var(--bg))}
+.blk-ps__grade.is-in span:nth-child(n+31){background:var(--pulse)}
+.blk-ps__grade.is-in span:last-child{transform:scale(1.25);box-shadow:0 0 0 4px color-mix(in srgb,var(--pulse) 35%,transparent)}
+.blk-ps__grade span:nth-child(10n+1){transition-delay:0ms}.blk-ps__grade span:nth-child(10n+2){transition-delay:40ms}.blk-ps__grade span:nth-child(10n+3){transition-delay:80ms}.blk-ps__grade span:nth-child(10n+4){transition-delay:120ms}.blk-ps__grade span:nth-child(10n+5){transition-delay:160ms}.blk-ps__grade span:nth-child(10n+6){transition-delay:200ms}.blk-ps__grade span:nth-child(10n+7){transition-delay:240ms}.blk-ps__grade span:nth-child(10n+8){transition-delay:280ms}.blk-ps__grade span:nth-child(10n+9){transition-delay:320ms}.blk-ps__grade span:nth-child(10n){transition-delay:360ms}
+.blk-ps__fases{list-style:none;margin:var(--sp-5) 0 0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-ps__fases li{background:var(--bg);border-radius:var(--radius);padding:var(--sp-3) var(--sp-3) var(--sp-4);border-top:4px solid var(--brand)}
+.blk-ps__fases li:nth-child(2){border-top-color:color-mix(in srgb,var(--brand) 45%,var(--bg))}
+.blk-ps__fases li:nth-child(3){border-top-color:var(--pulse)}
+.blk-ps__n{font-family:var(--f-display);font-weight:700;font-size:.85rem;letter-spacing:.06em;color:var(--brand)}
+.blk-ps__fases h3{margin:var(--sp-1) 0 .3rem;font-family:var(--f-display);font-size:1.3rem;line-height:1.15;color:var(--ink)}
+.blk-ps__fases p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:900px){
+  .blk-ps .wrap{display:grid;grid-template-columns:1.1fr 1fr;column-gap:4rem;align-items:start}
+  .blk-ps__cab{grid-column:1}.blk-ps__grade{grid-column:2;grid-row:1 / span 1;margin-top:0;align-self:center;gap:10px}
+  .blk-ps__fases{grid-column:1 / -1;grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+</style>

@@ -1,0 +1,28 @@
+<section class="blk-pm" id="palmilhas">
+  <div class="wrap">
+    <figure class="blk-pm__foto" data-reveal><!--foto:midia/palmilha.jpg|Molde de palmilha recortado à mão na bancada da clínica--></figure>
+    <div class="blk-pm__txt" data-reveal style="--d:100ms">
+      <p class="blk-pm__eyebrow">Feito na clínica</p>
+      <h2 class="blk-pm__titulo">A palmilha sai da nossa bancada, no formato do seu pé</h2>
+      <p data-acende>Dor no calcanhar, no joelho ou na lombar às vezes começa na pisada. Depois da avaliação, o molde é desenhado e recortado aqui mesmo, e a palmilha é ajustada durante o tratamento, sem esperar laboratório de fora.</p>
+      <ul class="blk-pm__lista">
+        <li><!--icone:pe--><span>Avaliação da pisada</span></li>
+        <li><!--icone:mao--><span>Molde recortado à mão</span></li>
+        <li><!--icone:check--><span>Ajuste nas sessões seguintes</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<style>
+.blk-pm{padding-block:var(--sp-section)}
+.blk-pm .wrap{display:grid;gap:var(--sp-4)}
+.blk-pm__foto{margin:0;border-radius:var(--radius);overflow:hidden;max-width:20rem;box-shadow:0 24px 50px -30px color-mix(in srgb,var(--brand) 70%,transparent);border:6px solid var(--pulse)}
+.blk-pm__foto img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover}
+.blk-pm__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);font-weight:600}
+.blk-pm__titulo{margin:0 0 var(--sp-3);font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-pm__txt p{color:color-mix(in srgb,var(--ink) 74%,transparent);max-width:36rem}
+.blk-pm__lista{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid;gap:var(--sp-2)}
+.blk-pm__lista li{display:flex;align-items:center;gap:.75rem;font-weight:600;color:var(--ink)}
+.blk-pm__lista svg{width:2.2rem;height:2.2rem;padding:.45rem;border-radius:50%;background:color-mix(in srgb,var(--brand) 10%,transparent);color:var(--brand);flex:none}
+@media (min-width:900px){.blk-pm .wrap{grid-template-columns:minmax(0,20rem) 1fr;gap:4rem;align-items:center}}
+</style>
