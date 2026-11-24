@@ -488,6 +488,11 @@ body>header,body>section,body>main,body>footer,body>.rule{position:relative;z-in
 .fita__faixa{background:var(--brand);color:var(--on-brand);padding-block:.9rem;overflow:hidden}
 .fita--inclinada{margin-block:-.6rem}
 .fita--inclinada .fita__faixa{transform:rotate(-2.5deg) scale(1.06)}
+/* No desktop a inclinação vira uma rampa de ~60px que invade o hero: reta. */
+@media (min-width:900px){
+  .fita--inclinada{margin-block:var(--sp-4) 0}
+  .fita--inclinada .fita__faixa{transform:none}
+}
 .fita__trilho{display:flex;width:max-content;animation:fita-corre 32s linear infinite}
 .fita ul{display:flex;list-style:none;margin:0;padding:0}
 .fita li{
